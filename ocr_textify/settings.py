@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-v(!)y2fv58uges^ub#r9n!-oydq=2m%=tv!5b@-x&9lih9^+^t
 DEBUG = True
 
 # ALLOWED_HOSTS = ['10.64.241.30']
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['ocr-git-maneesh.apps.ocp4.example.com']
 
 # 
 
@@ -60,7 +60,7 @@ ROOT_URLCONF = 'ocr_textify.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
